@@ -52,6 +52,6 @@ Dit kan je vergelijken met het onderstaande stukje scratch:
 
 Zie je de overeenkomst met het programma in TypeScript?
 
-Voordat we nu helemaal de diepte in duiken, gaan we echt bij het begin beginnen. 
+Voordat we nu helemaal de diepte in duiken, gaan we echt bij het begin beginnen: variabelen. 
 
-![Ga door](begin.md)
+![Ga door naar variabelen](begin.md)
