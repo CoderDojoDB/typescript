@@ -30,6 +30,8 @@ for (i = 0; i < 10; i++) {
 }
 ```
 
+*Dit programma laat 10 keer de tekst "Hallo wereld" zien*
+
 Als je nu op "Run" drukt, opent er een venster maar lijkt er nog niets te gebeuren. Hoe kan dit?
 
 Jou programma in TypeScript wordt omgezet naar javascript, dan opent er een venster in je browser om dit stuk javascript uit te gaan voeren. Maar omdat de `console.log("Hallo wereld");` instructie de computer zegt dat hij iets op de "javascript console" moet zetten, doet hij dit netjes, maar toont hij niets in het venster.
