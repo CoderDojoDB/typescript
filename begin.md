@@ -9,9 +9,9 @@ for (i = 0; i < 10; i++) {
 }
 ```
 
-Hierin wordt eigenlijk al een *variabele* gebruikt. Een variabele is een stukje geheugen waar je een *waarde* in kunt zetten.
+Hierin wordt eigenlijk al een *variabele* gebruikt. In dit geval een getal met de naam **i**. Een variabele is een stukje geheugen waar je een *waarde* in kunt zetten en uit kunt lezen.
 
-Een waarde kan bijvoorbeeld een tekst zijn of een getal, er zijn een aantal **typen variabelen** die we kunnen gebruiken in TypeScript:
+Een waarde kan bijvoorbeeld een tekst zijn of een getal. Er zijn een aantal **typen variabelen** die we kunnen gebruiken in TypeScript:
 
 * string (een tekst, bijvoorbeeld: "dit is een string")
 * booleaanse waarde (waar of onwaar, bijvoorbeeld: *true* of *false*)
@@ -42,7 +42,7 @@ console.log(tekst);
 
 **Probeer dit kleine programma uit in de playground.**
 
-## De tafel van 6
+## Opdracht: De tafel van 6
 
 Probeer nu zelf, met het voorbeeld uit het vorige hoofdstuk én de informatie die je nu weet over variabelen, een programma te maken die de tafel van 6 afdrukt op de javascript console.
 
@@ -54,6 +54,6 @@ De structuur is:
 
 Ben je klaar? Laat het dan maar zien aan een van de mentoren en probeer daarna anderen hiermee te helpen.
 
+## Extra moeilijke opdracht: Laat alle tafels van 1 - 10 zien.
 
-
-
+Verander nu je programma zodat hij niet alleen de tafel van 6 laat zien, maar *alle tafels van 1 tot 10*.
