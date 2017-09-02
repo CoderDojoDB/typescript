@@ -16,6 +16,6 @@ Wij gaan, om voorlopig niets te hoeven installeren, gebruik maken van de **types
 
 Elke keer als je op "run" drukt dan wordt je Typescript programma omgezet naar Javascript en wordt deze op een nieuwe tab in je browser geopend.
 
-![De run knop ziet er zo uit](github.com/CoderDojoDB/typescript/images/run.jpg)
+![De run knop ziet er zo uit](github.com/CoderDojoDB/typescript/images/run.png)
 
 ## 
