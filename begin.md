@@ -1,4 +1,3 @@
-
 # Het begin: variabelen.
 
 Je herinnert je misschien nog wel het stukje code wat we in ons eerste voorbeeld hebben gebruikt:
@@ -27,20 +26,24 @@ Een voorbeeld van een declaratie en het gebruik van een variabele is:
 // declareer variabelen
 var getal: number;
 var tekst: string;
+var waarOfOnwaar: boolean;
 
 // initialiseer variabelen
 getal = 5;
+waarOfOnwaar = true;
 tekst = "Dit is een tekst";
 
 // gebruik variabele
 getal = getal + 4;
+waarOfOnwaar = false;
 
 // en laat zien wat het doet
 console.log("5 + 4 = ", getal);
 console.log(tekst);
+console.log(waarOfOnwaar);
 ```
 
-**Probeer dit kleine programma uit in de playground.**
+**Probeer dit kleine programma uit in de playground en speel er gerust wat mee.**
 
 ## Opdracht: De tafel van 6
 
