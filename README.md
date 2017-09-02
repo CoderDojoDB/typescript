@@ -52,4 +52,4 @@ Zie je de overeenkomst met het programma in TypeScript?
 
 Voordat we nu helemaal de diepte in duiken, gaan we echt bij het begin beginnen. 
 
-(Ga door|begin.md)
+(begin.md)
