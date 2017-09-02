@@ -37,3 +37,7 @@ Jou programma in Typescript wordt omgezet naar javascript, dan opent er een vens
 *De javascript console is een hulpmiddel voor programmeurs om te kijken wat er tijdens het uitvoeren van javascript code op een web pagina allemaal gebeurt*
 
 Open dus de javascript console door in het menu op `Weergave|Ontwikkelaar|Javascript-console` te drukken.
+
+Je ziet nu de console:
+
+![console](images/console.png)
