@@ -1,5 +1,7 @@
 # Typescript
 
+(let op: we maken tijdens deze workshop gebruik van Chrome!)
+
 ## Wat is typescript
 
 Typescript is een programmeertaal die de opvolger is van javascript. Javascript wordt momenteel veel gebruikt om websites mee te maken. 
@@ -18,4 +20,20 @@ Elke keer als je op "run" drukt dan wordt je Typescript programma omgezet naar J
 
 ![De run knop ziet er zo uit](images/run.png)
 
-## 
+## Een klein voorbeeld
+
+Type dit programma link in het typescript venster (dus links) in:
+
+```typescript
+for (i = 0; i < 10; i++) {
+    console.log("Hallo wereld");
+}
+```
+
+Als je nu op "Run" drukt, opent er een venster maar lijkt er nog niets te gebeuren. Hoe kan dit?
+
+Jou programma in Typescript wordt omgezet naar javascript, dan opent er een venster in je browser om dit stuk javascript uit te gaan voeren. Maar omdat de `console.log("Hallo wereld");` instructie de computer zegt dat hij iets op de "javascript console" moet zetten, doet hij dit netjes, maar toont hij niets in het venster.
+
+*De javascript console is een hulpmiddel voor programmeurs om te kijken wat er tijdens het uitvoeren van javascript code op een web pagina allemaal gebeurt*
+
+Open dus de javascript console door in het menu op `Weergave|Ontwikkelaar|Javascript-console` te drukken.
