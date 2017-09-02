@@ -41,3 +41,11 @@ Open dus de javascript console door in het menu op `Weergave|Ontwikkelaar|Javasc
 Je ziet nu de console:
 
 ![console](images/console.png)
+
+Ons programma heeft dus 10x de tekst "Hallo wereld" afgedrukt op de javascript console.
+
+Dit kan je vergelijken met het onderstaande stukje scratch:
+
+![voorbeeld](images/voorbeeld.png)
+
+Zie je de overeenkomst?
