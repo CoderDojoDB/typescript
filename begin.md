@@ -1,9 +1,9 @@
-# Het begin: variabelen.
+# Het begin: variabelen
 
 Je herinnert je misschien nog wel het stukje code wat we in ons eerste voorbeeld hebben gebruikt:
 
 ```typescript
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("Hallo wereld");
 }
 ```
@@ -24,9 +24,9 @@ Een voorbeeld van een declaratie en het gebruik van een variabele is:
 
 ```typescript
 // declareer variabelen
-var getal: number;
-var tekst: string;
-var waarOfOnwaar: boolean;
+let getal: number;
+let tekst: string;
+let waarOfOnwaar: boolean;
 
 // initialiseer variabelen
 getal = 5;
@@ -45,9 +45,25 @@ console.log(waarOfOnwaar);
 
 **Probeer dit kleine programma uit in de playground en speel er gerust wat mee.**
 
+Zoals gezegd waarschuwt TypeScript je wanneer je dingen doet die niet bij elkaar passen. Een voorbeeld hiervan is het toewijzen van een string waarde aan een als number gedeclareerde variabele:
+
+```typescript
+// declareer number variabele
+let getal: number;
+
+// wijs een string waarde toe
+getal = "Dit is een tekst";
+```
+
+Dit levert de volgende waarschuwing op:
+
+![waarschuwing](images/waarschuwing.png)
+
+**Probeer dit maar eens uit in de playground en speel ook eens met andere variabele types.**
+
 ## Opdracht: De tafel van 6
 
-Probeer nu zelf, met het voorbeeld uit het vorige hoofdstuk én de informatie die je nu weet over variabelen, een programma te maken die de tafel van 6 afdrukt op de javascript console.
+Probeer nu zelf, met het voorbeeld uit het vorige hoofdstuk én de informatie die je nu weet over variabelen, een programma te maken die de tafel van 6 afdrukt op de JavaScript console.
 
 De structuur is:
 
