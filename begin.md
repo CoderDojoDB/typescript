@@ -4,11 +4,38 @@ Je herinnert je misschien nog wel het stukje code wat we in ons eerste voorbeeld
 
 ```typescript
 for (let i = 0; i < 10; i++) {
-    console.log("Hallo wereld");
+    document.write("Hallo wereld<br>");
 }
 ```
 
 Hierin wordt eigenlijk al een *variabele* gebruikt. In dit geval een getal met de naam **i**. Een variabele is een stukje geheugen waar je een *waarde* in kunt zetten en uit kunt lezen.
+
+De `for` lus heeft drie delen tussen de haken staan:
+
+```
+for (BEGIN; ZOLANG; NA) {
+    `... opdrachten binnen de lus ...`
+}
+```
+
+De delen `BEGIN`, `ZOLANG` en `NA` worden elk door de computer uitgevoerd aan het **BEGIN** van de lus, 
+voor **ZOLANG** deze conditie WAAR (true) is en **NA** elke lus wordt weer een andere opdracht uitgevoerd. 
+
+Elke keer dat deze lus doorlopen wordt, dan worden de **opdrachten binnen de lus** uitgevoerd. 
+  
+In het voorbeeld
+
+* **BEGIN**: let i = 0
+* **ZOLANG**: i < 10
+* **NA**: i++
+
+Of anders gezegd:
+
+* maak een variabele met de naam `i`;
+* blijf de lus uitvoeren zolang deze variabele `i` kleiner is dan 10;
+* na elke lus moet `i` opgehoogd worden met 1. `++` is een korte manier om op te schrijven: `i = i + 1`.
+
+# Variabele typen
 
 Een waarde kan bijvoorbeeld een tekst zijn of een getal. Er zijn een aantal **typen variabelen** die we kunnen gebruiken in TypeScript:
 
@@ -38,9 +65,9 @@ getal = getal + 4;
 waarOfOnwaar = false;
 
 // en laat zien wat het doet
-console.log("5 + 4 = ", getal);
-console.log(tekst);
-console.log(waarOfOnwaar);
+document.write("5 + 4 = " + getal + "<br>");
+document.write(tekst + "<br>");
+document.write(waarOfOnwaar + "<br>");
 ```
 
 **Probeer dit kleine programma uit in de playground en speel er gerust wat mee.**
@@ -61,6 +88,12 @@ Dit levert de volgende waarschuwing op:
 
 **Probeer dit maar eens uit in de playground en speel ook eens met andere variabele types.**
 
+## Opdracht: tel tot 1000
+
+Verander de `for` lus zodat hij niet 10x, maar 1000 keer doorlopen wordt.
+
+Ben je klaar? Laat het dan maar zien aan een van de mentoren en probeer daarna anderen hiermee te helpen.
+
 ## Opdracht: De tafel van 6
 
 Probeer nu zelf, met het voorbeeld uit het vorige hoofdstuk én de informatie die je nu weet over variabelen, een programma te maken die de tafel van 6 afdrukt op de JavaScript console.
@@ -69,10 +102,17 @@ De structuur is:
 
 * declareer een variabele, waarmee je
 * een **for** lus maakt
-* om de waarden een voor een via een `console.log()` op de console te laten zien.
+* om de waarden een voor een via een `document.write()` op de console te laten zien.
 
 Ben je klaar? Laat het dan maar zien aan een van de mentoren en probeer daarna anderen hiermee te helpen.
 
 ## Extra moeilijke opdracht: Laat alle tafels van 1 - 10 zien.
 
-Verander nu je programma zodat hij niet alleen de tafel van 6 laat zien, maar *alle tafels van 1 tot 10*.
+Verander nu je programma zodat hij niet alleen de tafel van 6 laat zien, maar *alle tafels van 1 tot en met 10*.
+
+**Hint** gebruik nu niet alleen een `for` lus om één tafel te laten zien, maar zet om de `for` lus uit de vorige opdracht 
+**in** een andere `for` lus.
+
+Klaar met je opdrachten?  
+  
+![Ga door naar de while opdracht](while.md)

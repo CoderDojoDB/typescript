@@ -26,13 +26,13 @@ Type dit programma link in het TypeScript venster (dus links) in:
 
 ```typescript
 for (let i = 0; i < 10; i++) {
-    console.log("Hallo wereld");
+    document.write("Hallo wereld<br>");
 }
 ```
 
 *Dit programma laat 10 keer de tekst "Hallo wereld" zien*
 
-Als je nu op "Run" drukt, opent er een venster maar lijkt er nog niets te gebeuren. Hoe kan dit?
+Als je nu op "Run" drukt, opent er een nieuwe tab Waarin de tekst "Hallo wereld" 10x getoond wordt.
 
 Jouw programma in TypeScript wordt omgezet naar JavaScript, dan opent er een venster in je browser om dit stuk JavaScript uit te gaan voeren. Maar omdat de `console.log("Hallo wereld");` instructie de computer zegt dat hij iets op de "JavaScript console" moet zetten, doet hij dit netjes, maar toont hij niets in het venster.
 
@@ -44,7 +44,8 @@ Je ziet nu de console:
 
 ![console](images/console.png)
 
-Ons programma heeft dus 10x de tekst "Hallo wereld" afgedrukt op de JavaScript console.
+Ons programma heeft dus 10x de tekst "Hallo wereld" afgedrukt op de JavaScript console. Het blok code dat tussen de `{` en `}` 
+tekens staat, geeft aan wat er allemaal door deze `for` loop uitgevoerd gaat worden.
 
 Dit kan je vergelijken met het onderstaande stukje Scratch:
 
