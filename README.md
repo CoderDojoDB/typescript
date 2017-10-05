@@ -18,7 +18,7 @@ Wij gaan, om voorlopig niets te hoeven installeren, gebruik maken van de **types
 
 Elke keer als je op "run" drukt dan wordt je TypeScript programma omgezet naar JavaScript en wordt deze op een nieuwe tab in je browser geopend.
 
-![De run knop ziet er zo uit](images/run.png)
+<img src="images/run.png" width="200">
 
 ## Een klein voorbeeld
 
@@ -41,7 +41,7 @@ tekens staat, geeft aan wat er allemaal door deze `for` loop uitgevoerd gaat wor
 
 Dit kan je vergelijken met het onderstaande stukje Scratch:
 
-![voorbeeld](images/voorbeeld.png)
+<img src="images/voorbeeld.png" width="200">
 
 Zie je de overeenkomst met het programma in TypeScript?
 
