@@ -42,4 +42,5 @@ Probeer nu eens af te tellen met een waarde van meer dan 1. Bijvoorbeeld:
 
 Klaar met je opdrachten?  
   
-** we wachten nog op de laatste aanvulling van deze typescript cursus**
+**we wachten nog op de laatste aanvulling van deze typescript cursus**
+
