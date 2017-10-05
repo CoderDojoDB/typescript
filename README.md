@@ -34,17 +34,9 @@ for (let i = 0; i < 10; i++) {
 
 Als je nu op "Run" drukt, opent er een nieuwe tab Waarin de tekst "Hallo wereld" 10x getoond wordt.
 
-Jouw programma in TypeScript wordt omgezet naar JavaScript, dan opent er een venster in je browser om dit stuk JavaScript uit te gaan voeren. Maar omdat de `console.log("Hallo wereld");` instructie de computer zegt dat hij iets op de "JavaScript console" moet zetten, doet hij dit netjes, maar toont hij niets in het venster.
+Jouw programma in TypeScript wordt omgezet naar JavaScript, dan opent er een venster in je browser om dit stuk JavaScript uit te gaan voeren. Maar omdat de `document.write("Hallo wereld<br>");` instructie de computer zegt dat hij iets op de pagina moet zetten, doet hij dit netjes.
 
-*De JavaScript console is een hulpmiddel voor programmeurs om te kijken wat er tijdens het uitvoeren van JavaScript code op een web pagina allemaal gebeurt*
-
-Open dus de JavaScript console door in het menu op `Weergave|Ontwikkelaar|Javascript-console` te drukken.
-
-Je ziet nu de console:
-
-![console](images/console.png)
-
-Ons programma heeft dus 10x de tekst "Hallo wereld" afgedrukt op de JavaScript console. Het blok code dat tussen de `{` en `}` 
+Ons programma heeft dus 10x de tekst "Hallo wereld" afgedrukt op de browser pagina. Het blok code dat tussen de `{` en `}` 
 tekens staat, geeft aan wat er allemaal door deze `for` loop uitgevoerd gaat worden.
 
 Dit kan je vergelijken met het onderstaande stukje Scratch:
