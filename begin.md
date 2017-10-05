@@ -84,7 +84,7 @@ getal = "Dit is een tekst";
 
 Dit levert de volgende waarschuwing op:
 
-![waarschuwing](images/waarschuwing.png)
+<img src="images/waarschuwing.png" width="200">
 
 **Probeer dit maar eens uit in de playground en speel ook eens met andere variabele types.**
 
