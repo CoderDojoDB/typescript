@@ -16,7 +16,7 @@ Het deel wat tussen de haken staat bij de while, in dit geval `i < 10`, is een *
 
 Als de **conditie** niet waar is, dan wordt deze hele lus overgeslagen. In Scratch zou je dit misschien wel zo bouwen:
 
- ![](./images/while/while-1.png | width=100)
+ ![](images/while/while-1.png | width=100)
 
 Complex vind je niet? Dan is het intikken van een `while` in je typescript code toch een stuk korter én het scheelt een boel klikken en slepen met de muis!
 
